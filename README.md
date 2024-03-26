@@ -6,7 +6,7 @@ Credits: Axel Rauschmayer
 
 ## Adding or removing an element at either end of an Array:
 
-| Array Before       | Method                | Return Value | Array After           | Definition | Example |
+| Array Before       | Method                | Return Value | Array After           | Definition                                   | Example |
 |--------------------|-----------------------|--------------|-----------------------|------------|---------|
 | ["Apple","Banana"] | .push("Orange")       | 3            | ["Apple","Banana","Orange"] | Adds one or more elements to the end of an array and returns the new length of the array. | `fruits.push("Orange")` adds "Orange" to the end of the array. |
 | ["Apple","Banana"] | .pop()                | "Banana"     | ["Apple"]             | Removes the last element from an array and returns that element. | `var removed = fruits.pop()` removes "Banana" from the end of the array. |
